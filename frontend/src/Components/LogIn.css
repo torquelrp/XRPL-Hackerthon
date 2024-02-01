@@ -1,0 +1,62 @@
+.botao1 {
+    background-color: rgb(121, 65, 45);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.botao1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 47, 33);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box {
+    margin-top: 70px;
+    margin-left: 550px;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px black;
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+
+}
+
+.box2 {
+    margin-top: 170px;
+    margin-left: 550px;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px black;
+    padding: 20px;
+}
+
+.tudo {
+    background-image: url('../../public/Home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1600px;
+    margin: 0;
+}

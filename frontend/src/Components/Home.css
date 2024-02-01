@@ -1,0 +1,69 @@
+.tudo {
+    background-image: url('../../public/Home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1600px;
+    margin: 0;
+}
+
+.imagem {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.botao2 {
+    background-color: rgb(121, 65, 45);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.botao2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 47, 33);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+.imagem2 {
+    width: 1000px;
+}
+
+.botao1 {
+    background-color: rgb(121, 65, 45);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+.botao1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 47, 33);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-fluid {
+    margin-top: 500px;
+    align-items: center;
+}

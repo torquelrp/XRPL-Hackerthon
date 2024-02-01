@@ -1,0 +1,20 @@
+.boxNews {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.imagem {
+    width: 440px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

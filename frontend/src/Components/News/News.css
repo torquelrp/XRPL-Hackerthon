@@ -1,0 +1,26 @@
+.boxNews-News {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    padding: 25px;
+    margin: 10px;
+    width: 1100px;
+    margin-left: 200px;
+}
+
+.imagem-news {
+    width: 1000px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.center-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-alinhamento {
+    text-align: justify;
+}

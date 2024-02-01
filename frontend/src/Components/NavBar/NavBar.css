@@ -1,0 +1,35 @@
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.25s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    color: #8B4513; 
+    font-family: "Arial", sans-serif; 
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: #6a3510; 
+}
